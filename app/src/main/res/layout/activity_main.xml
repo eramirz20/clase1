@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.esteban_ramirez.clase1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/Registro"
+            android:textColor="@color/green"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/Nombre"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/eNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Apellido"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/eApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+
+                />
+
+
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Loggin"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/eLoggin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+
+                />
+
+
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Password"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/ePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+
+                />
+
+
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/Repetir_Password"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/ePassword2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+
+                />
+
+
+            >
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fecha_de_nacimiento"
+            android:textSize="20sp" />
+
+        <DatePicker
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:id="@+id/date"
+            android:startYear="1950"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></DatePicker>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Genero"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/rMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/Masculino" />
+
+            <RadioButton
+                android:id="@+id/rFemenino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Femenino" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/correo_electronico"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/ecorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+
+                />
+
+
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/numero"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/enumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+
+
+            >
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Lugar_de_nacimiento"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/sCiudades"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Hobbies" />
+
+            <CheckBox
+                android:id="@+id/cDormir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dormir" />
+
+            <CheckBox
+                android:id="@+id/cComer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Comer" />
+
+            <CheckBox
+                android:id="@+id/cPeliculas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/peliculas" />
+
+            <CheckBox
+                android:id="@+id/cDeporte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Deporte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/eBoton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/darkcyan"
+                android:text="@string/registrar"
+                android:textAllCaps="false"
+                android:textColor="@color/wheat"
+                android:textSize="20sp"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/einfo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/Información"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <!-- Asi son los comentarios -->
+        <!-- sp solo es para letras -->
+        <!-- control espacio para abrir la lista de completacion -->
+        <!-- identar control alt l -->
+        <!-- el porcentaje de cuadro se usa con weight y poniendo el height con 0 -->
+
+    </LinearLayout>
+</ScrollView>

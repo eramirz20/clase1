@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">clase1</string>
+    <string name="Registro">Registro</string>
+    <string name="registro">registro</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="registrar">Registrar</string>
+    <string name="Informacion">Informacion</string>
+    <string name="Información">Información</string>
+    <string name="correo">correo</string>
+    <string name="correo_electronico">correo electronico</string>
+    <string name="numero">numero</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Femenino">Femenino</string>
+    <string name="dormir">Dormir</string>
+    <string name="comer">Dormir</string>
+    <string name="peliculas">Peliculas</string>
+    <string name="Deporte">Deporte</string>
+    <string name="Comer">Comer</string>
+    <string name="Ciudad">Ciudades</string>
+    <string name="Loggin">Loggin</string>
+    <string name="Genero">Genero</string>
+    <string name="Hobbies">Hobbies</string>
+    <string name="Password">Password</string>
+    <string name="Repetir_Password">Repetir password</string>
+    <string name="Lugar_de_nacimiento">Lugar de nacimiento</string>
+    <string name="Fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="pick_date">Fecha</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+
+    <string-array name="sCiudades">
+        <item>Medellin</item>
+        <item>Bogota</item>
+        <item>Cali</item>
+        <item>Bucaramanga</item>
+    </string-array>
+
+</resources>
